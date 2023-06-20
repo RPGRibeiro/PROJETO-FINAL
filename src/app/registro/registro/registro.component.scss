@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+  }
+  
+  .loading_spinner {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor cinza com transparência */
+  }
+  .align_text {
+    margin: 0 auto;
+  }
+
+//   .flexExpand {
+//     flex: 1 1 auto;
+// }
+  
+  // .progress-spinner {
+  //   width: 40px;
+  //   height: 40px;                      PROGRESS - SPINNER
+  //   border: 4px solid #f3f3f3;
+  //   border-top: 4px solid #3498db;
+  //   border-radius: 50%;
+  //   animation: spin 2s linear infinite;
+  // }
+  
+  // @keyframes spin {
+  //   0% {
+  //     transform: rotate(0deg);
+  //   }
+  //   100% {
+  //     transform: rotate(360deg);
+  //   }
+  // }
